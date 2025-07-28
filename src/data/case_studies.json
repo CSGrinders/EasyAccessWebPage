@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Seamless File Access.<br>Total Control.",
+    "sector": "Productivity",
+    "content": "<strong>EasyAccess unifies local, cloud, and desktop environments into one intelligent dashboard.</strong> <br><br>From instant search to cross-platform file management, users spend less time switching and more time doing.",
+    "case_study_link": "https://easyaccess.app",
+    "cta": "Visit easyaccess.app",
+    "image": "/content-images/easyaccess-dashboard.avif",
+    "image_alt": "Screenshot of EasyAccess file dashboard",
+    "bg": "bg-gradient-to-r from-blue-500 to-sky-600"
+  },
+  {
+    "title": "Connected Platforms.<br>Smarter Automation.",
+    "sector": "Automation",
+    "content": "With built-in agents, EasyAccess can move files from cloud accounts to local folders, sync directories, and even suggest organization strategies — all without manual effort.",
+    "case_study_link": "https://easyaccess.app/automation",
+    "cta": "Explore automation",
+    "image": "/content-images/easyaccess-automation.avif",
+    "image_alt": "Automated file transfer in EasyAccess",
+    "bg": "bg-gradient-to-r from-cyan-500 to-emerald-500"
+  },
+  {
+    "title": "Unified Search.<br>Instant Results.",
+    "sector": "Search AI",
+    "content": "Search across Google Drive, Dropbox, and your local system in milliseconds. EasyAccess understands context, so you always find the right file — even if you forgot the name.",
+    "case_study_link": "https://easyaccess.app/search",
+    "cta": "Try smart search",
+    "image": "/content-images/easyaccess-search.avif",
+    "image_alt": "Search results panel in EasyAccess UI",
+    "bg": "bg-gradient-to-r from-indigo-500 to-purple-600"
+  }
+]

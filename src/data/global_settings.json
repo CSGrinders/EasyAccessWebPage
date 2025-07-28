@@ -1,0 +1,41 @@
+{
+  "title": "EasyAccess Landing Theme",
+  "description": "A free Astro landing theme made with Tailwind",
+  "social_image": "/1200x630.jpg",
+  "base_url": "https://astro-theme.blackspike.com",
+  "demo": {
+    "title": "Need help?",
+    "content": "We can help you with your suggestions. Contact us to get started.",
+    "cta": "Contact Us"
+  },
+  "theme_color": "#18181b",
+  "nav": [
+    {
+      "title": "Services",
+      "link": "/#services"
+    },
+    {
+      "title": "Case studies",
+      "link": "/#case-studies"
+    },
+    {
+      "title": "Pricing",
+      "link": "/#pricing"
+    },
+    {
+      "title": "FAQ",
+      "link": "/#faq"
+    }
+  ],
+
+  "social_links": [
+    {
+      "title": "GitHub",
+      "link": "https://github.com/"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/alesgsanudoo/"
+    }
+  ]
+}

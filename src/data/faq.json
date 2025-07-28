@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Is EasyAccess secure to use with my files and accounts?",
+    "answer": "Absolutely. EasyAccess uses SHA-256 encryption for local and cloud data, and stores access tokens safely in your browser’s local storage. Nothing is uploaded without your permission, and we never access files unless you authorize it."
+  },
+  {
+    "question": "Do I need to pay to start using EasyAccess?",
+    "answer": "No payment required — we offer 50 free agent requests per month, including smart search, file transfers, and automation flows. Just connect your accounts and start using the core features immediately."
+  },
+  {
+    "question": "Can I use EasyAccess on multiple devices?",
+    "answer": "Yes! EasyAccess works across all major platforms — Windows, macOS, and Linux. Your settings and linked accounts sync seamlessly, so you can access your files from anywhere."
+  },
+  {
+    "question": "Can I manage multiple accounts with EasyAccess?",
+    "answer": "Yes! You can link multiple Google, Dropbox, and OneDrive accounts. EasyAccess keeps them separated but searchable, making it easy to work across personal and professional spaces."
+  },
+  {
+    "question": "How does EasyAccess protect my privacy?",
+    "answer": "We never store your files on our servers. Tokens stay in your local device, and access is read-only unless you explicitly move or copy files. You’re always in control of what’s accessed, and we ask for permission every time."
+  }
+]

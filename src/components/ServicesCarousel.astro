@@ -1,0 +1,83 @@
+---
+
+import Arrow from '../assets/theme-images/icon-arrow.svg'
+
+const { title, services } = Astro.props
+
+---
+
+<section id="services">
+
+  <!-- Header -->
+  <header class="bs-container">
+    { title && <h2 class="bs-h2 text-center mb-12">{ title }</h2>}
+  </header>
+
+  <!-- Services List -->
+  <div class="bs-container space-y-16 md:space-y-24">
+    
+    { services.map( (item, index) =>
+
+      <div class={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 md:gap-16 items-center`}>
+
+        {/* Image - Left/Right alternating */}
+        <div class="flex-1 w-full">
+          <div class="relative rounded-xl overflow-hidden aspect-[4/3] md:aspect-[16/10]">
+            <img src={ item.image } alt={ item.image_alt } loading="lazy"
+              class="w-full h-full object-cover"
+              height="1024" width="768" />
+          </div>
+        </div>
+
+        {/* Content - Right/Left alternating */}
+        <div class="flex-1 flex flex-col gap-6 justify-center">
+
+          {/* Title */}
+          <h3 class="bs-h2" set:html={ item.title } />
+
+          {/* Description */}
+          <div class="bs-body-text text-pretty" set:html={ item.content } />
+
+          {/* CTA */}
+          <button type="button" class="bs-btn inline-block self-start bs-mt-sm" onclick="demo.showModal()">
+            { item.cta }
+          </button>
+
+        </div>
+
+      </div>
+
+    )}
+
+  </div>
+
+</section>
+
+<style>
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Add some scroll-triggered animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  .bs-container > div > div {
+    opacity: 0;
+    animation: fadeInUp linear forwards;
+    /* animation-timeline: view(10% 90%); */
+  }
+}
+
+</style>
