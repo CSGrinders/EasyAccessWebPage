@@ -1,14 +1,25 @@
 {
-  "hero_title": "EasyAccess",
-  "hero_content": "<p><strong>The Unified File Management Platform for modern productivity with Agentic Support</strong>.</p><p>EasyAccess unifies your <strong>Google Drive, OneDrive, Dropbox, and local files</strong> into a seamless desktop experience — with AI-powered automation for smarter, faster file organization.</p>",
-  "services_title": "What EasyAccess Does",
-  "clients_title": "Trusted by professionals managing massive cloud files",
-  "testimonials_title": "Users ♥ the unified file management",
-  "case_studies_title": "Built for real workflows",
-  "pricing_title": "Free to start, powerful to scale",
-  "quote_content": "EasyAccess has <strong>completely transformed how I interact with cloud files</strong>. Instead of hopping between services, I get <strong>one intelligent platform</strong>.",
-  "quote_cite": "Alejandro Steven Griffith",
-  "quote_role": "Founder of Association of Black Computer Scientists at Purdue",
-  "quote_image": "/content-images/alejandro.jpeg",
-  "faq_title": "Frequently Asked Questions"
+  "homeSection_title": "EasyAccess",
+  "homeSection_content": "<p><strong>The Unified File Management Platform for modern productivity with Agentic Support</strong>.</p><p>EasyAccess unifies your <strong>Google Drive, OneDrive, Dropbox, and local files</strong> into a seamless desktop experience — with AI-powered automation for smarter, faster file organization.</p>",
+  "services_title": "What <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>EasyAccess</span> Does",
+  "case_studies_title": "Built for <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>real workflows</span>",
+  "about_title": "Meet <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>Us</span>",
+  "about_content": "test",
+  "about_team": [
+    {
+      "name": "Hojin Sohn",
+      "role": "test",
+      "description": "test",
+      "image": "/content-images/hojin.jpg",
+      "linkedin": "https://www.linkedin.com/in/hojin-sohn-a41b52159/"
+    },
+    {
+      "name": "Alejandro Griffith", 
+      "role": "test",
+      "description": "test",
+      "image": "/content-images/alejandro.jpg",
+      "linkedin": "https://www.linkedin.com/in/alesgsanudoo/"
+    }
+  ],
+  "faq_title": "Frequently Asked <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>Questions</span>"
 }

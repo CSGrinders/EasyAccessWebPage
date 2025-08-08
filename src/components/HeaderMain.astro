@@ -1,44 +1,39 @@
 ---
 
-import Logo from '../assets/theme-images/logo.svg'
-
 const { settings } = Astro.props
 
 ---
 
-<header class="wrapper bg-loop font-semibold">
+<!-- Floating navigation island at bottom -->
+<nav class="floating-nav">
+  <div class="nav-island">
+    <!-- Navigation links -->
+    <div class="nav-links-floating">
+      { settings.nav.map(item => (
+        <a class="nav-link-floating" href={ item.link }>{ item.title }</a>
+      )) }
+    </div>
+    
+    <!-- Actions -->
+    <div class="nav-actions-floating">
+      <!-- Theme toggle -->
+      <button
+        type="button"
+        class="theme-toggle-floating"
+        aria-label="Toggle theme"
+        onclick="window.dispatchEvent(new CustomEvent('ea:toggle-theme'))">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
 
-  <!-- Wrapper -->
-  <div class="bs-container py-6 flex justify-between items-center">
-
-    <!-- Logo -->
-    <a class="flex xl:min-w-32 group" href="/" aria-label={ settings.title + ' - Home' }>
-
-      <Logo class="group-hover:-rotate-180 group-hover:scale-80 transition-transform ease-bs-spring duration-1000" height="48" width="48" />
-
-    </a>
-
-    <!-- Nav -->
-    <nav class="hidden col-span-6 md:flex mx-auto self-stretch lg:gap-2">
-
-      <!-- Links -->
-      { settings.nav.map( item =>
-
-        <a class="bs-btn !bg-transparent before:translate-y-full hover:before:translate-y-0" href={item.link}>
-          { item.title }
-        </a>
-
-      )}
-
-    </nav>
-
-    <!-- CTA -->
-    <button type="button" class="min-w-32 bs-btn" onclick="demo.showModal()">
-
-      { settings.demo.title }
-
-    </button>
-
+      <!-- CTA -->
+      <button type="button" class="cta-btn-floating" onclick="contact.showModal()">
+        Connect
+      </button>
+    </div>
   </div>
-
-</header>
+</nav>

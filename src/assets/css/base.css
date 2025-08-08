@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@reference "./global.css";
 
 :root {
   color-scheme: dark;
@@ -7,6 +6,44 @@
   scroll-padding-top: 2em;
 }
 
+.light { color-scheme: light; }
+
 body {
-  @apply bg-bs-surface-1 text-bs-foreground-light font-body selection:text-black selection:bg-amber-300;
+  background: linear-gradient(
+    135deg,
+    color-mix(in hsl, hsl(var(--accent)), transparent 95%) 0%,
+    color-mix(in hsl, hsl(var(--accent)), transparent 98%) 100%
+  );
+  color: hsl(var(--foreground)); /* bs-foreground-light */
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif; /* font-body */
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(
+      circle at 20% 50%, 
+      color-mix(in hsl, hsl(var(--accent)), transparent 90%) 0%, 
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 20%, 
+      color-mix(in hsl, hsl(var(--accent)), transparent 92%) 0%, 
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 40% 80%, 
+      color-mix(in hsl, hsl(var(--accent)), transparent 94%) 0%, 
+      transparent 50%
+    );
+  pointer-events: none;
+  z-index: -1;
 }

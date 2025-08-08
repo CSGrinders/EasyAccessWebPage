@@ -10,7 +10,7 @@ const { title, services } = Astro.props
 
   <!-- Header -->
   <header class="bs-container">
-    { title && <h2 class="bs-h2 text-center mb-12">{ title }</h2>}
+    { title && <h2 class="bs-h2 text-center mb-12" set:html={ title }></h2>}
   </header>
 
   <!-- Services List -->
@@ -33,13 +33,13 @@ const { title, services } = Astro.props
         <div class="flex-1 flex flex-col gap-6 justify-center">
 
           {/* Title */}
-          <h3 class="bs-h2" set:html={ item.title } />
+          <h3 class="bs-card-title" set:html={ item.title } />
 
           {/* Description */}
           <div class="bs-body-text text-pretty" set:html={ item.content } />
 
           {/* CTA */}
-          <button type="button" class="bs-btn inline-block self-start bs-mt-sm" onclick="demo.showModal()">
+          <button type="button" class="bs-btn inline-block self-start bs-mt-sm" onclick="contact.showModal()">
             { item.cta }
           </button>
 
