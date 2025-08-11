@@ -12,15 +12,9 @@
     "image_alt": "EasyAccess unified dashboard"
   },
   {
-    "title": "Move, sync, and control your data with intelligent automation.",
-    "content": "<strong>Designed for seamless workflow.</strong> Whether you're migrating files, syncing data between services, or searching across accounts, EasyAccess uses smart agents to save you time and effort.",
+    "title": "Move, sync, control & search across all your data.",
+    "content": "<strong>Designed for seamless workflow & instant discovery.</strong> Whether you're migrating files, syncing data between services, or searching across accounts, EasyAccess uses smart agents to save you time and effort. Its powerful search engine scans Google Drive, Dropbox, OneDrive, and local files instantly; using context to deliver accurate results even if you forget the name.",
     "image": "/content-images/Case1.gif",
-    "image_alt": "File transfer and automation view"
-  },
-  {
-    "title": "Search across all your accounts in seconds.",
-    "content": "<strong>Find what you need, when you need it.</strong> EasyAccess's powerful search engine scans Google Drive, Dropbox, OneDrive, and local files instantly, using context to deliver accurate results—even if you forget the name.",
-    "image": "/content-images/CaseSearch.gif",
-    "image_alt": "Search functionality in EasyAccess"
+    "image_alt": "File automation and unified search capabilities"
   }
 ]
