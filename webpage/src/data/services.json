@@ -2,19 +2,19 @@
   {
     "title": "Effortless account connection.<br>Smarter management starts here.",
     "content": "<strong>Connect all your services in seconds.</strong> EasyAccess simplifies linking accounts so you can sync data, move files, and search across platforms—without the hassle.",
-    "image": "/content-images/easyaccess-automation.avif",
+    "image": "https://raw.githubusercontent.com/CSGrinders/EasyAccessWebPage/refs/heads/main/content-images/accounts.gif",
     "image_alt": "Illustration of seamless account integration"
   },
   {
     "title": "We simplify access to all your files and accounts in one place.",
     "content": "<strong>EasyAccess brings your cloud, desktop, and local storage together.</strong> Manage, search, and organize your digital world with a single intuitive interface — no more switching between platforms.",
-    "image": "/content-images/CaseTransfer.gif",
+    "image": "https://raw.githubusercontent.com/CSGrinders/EasyAccessWebPage/refs/heads/main/content-images/movefiles.gif",
     "image_alt": "EasyAccess unified dashboard"
   },
   {
     "title": "Move, sync, control & search across all your data.",
     "content": "<strong>Designed for seamless workflow & instant discovery.</strong> Whether you're migrating files, syncing data between services, or searching across accounts, EasyAccess uses smart agents to save you time and effort. Its powerful search engine scans Google Drive, Dropbox, OneDrive, and local files instantly; using context to deliver accurate results even if you forget the name.",
-    "image": "/content-images/Case1.gif",
+    "image": "https://raw.githubusercontent.com/CSGrinders/EasyAccessWebPage/refs/heads/main/content-images/search.gif",
     "image_alt": "File automation and unified search capabilities"
   }
 ]

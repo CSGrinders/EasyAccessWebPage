@@ -15,11 +15,11 @@ const { title, faq } = Astro.props
   <div class="grid gap-2 bs-mt-sm">
 
     <!-- Item -->
-    { faq.map( item =>
+    { faq.map( (item, i) => (
 
-      <DetailsAccordion question={item.question} answer={item.answer} />
+      <DetailsAccordion question={item.question} answer={item.answer} important={ i === 0 } />
 
-    )}
+    )) }
 
   </div>
 

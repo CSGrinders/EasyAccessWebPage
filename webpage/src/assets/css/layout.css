@@ -192,6 +192,64 @@ html:not(.light) .theme-toggle-floating .icon-moon {
   box-shadow: 0 4px 16px color-mix(in hsl, hsl(var(--primary)), transparent 70%);
 }
 
+/* GitHub button styles for floating nav */
+.github-btn-floating {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, 
+    color-mix(in hsl, hsl(var(--primary)), transparent 75%) 0%,
+    color-mix(in hsl, hsl(var(--primary)), transparent 60%) 100%
+  );
+  border: 1px solid color-mix(in hsl, hsl(var(--primary)), transparent 60%);
+  color: hsl(var(--foreground));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.github-btn-floating:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, 
+    color-mix(in hsl, hsl(var(--primary)), transparent 65%) 0%,
+    color-mix(in hsl, hsl(var(--primary)), transparent 50%) 100%
+  );
+  box-shadow: 0 4px 12px color-mix(in hsl, hsl(var(--primary)), transparent 75%);
+  color: hsl(var(--foreground));
+}
+
+/* GitHub button styles for footer */
+.github-btn-footer {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, 
+    color-mix(in hsl, hsl(var(--primary)), transparent 80%) 0%,
+    color-mix(in hsl, hsl(var(--primary)), transparent 65%) 100%
+  );
+  border: 1px solid color-mix(in hsl, hsl(var(--primary)), transparent 60%);
+  color: hsl(var(--foreground));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.github-btn-footer:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, 
+    color-mix(in hsl, hsl(var(--primary)), transparent 65%) 0%,
+    color-mix(in hsl, hsl(var(--primary)), transparent 50%) 100%
+  );
+  box-shadow: 0 4px 12px color-mix(in hsl, hsl(var(--primary)), transparent 75%);
+  color: hsl(var(--foreground));
+}
+
 /* Minimal, unobtrusive footer */
 .minimal-footer {
   margin-top: 4rem;

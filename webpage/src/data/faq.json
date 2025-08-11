@@ -1,11 +1,11 @@
 [
   {
-    "question": "Is EasyAccess secure to use with my files and accounts?",
-    "answer": "Absolutely. EasyAccess uses SHA-256 encryption for local and cloud data, and stores access tokens safely in your browser’s local storage. Nothing is uploaded without your permission, and we never access files unless you authorize it."
+    "question": "Why didn't we publish EasyAccess for the public?",
+    "answer": "The main reason is that Google Drive's API for full filesystem access requires a verification process that is very difficult to pass, as it requires significant funding that we don't currently have. While this was disappointing, we reminded ourselves that we learned a tremendous amount from this project, which is what matters most at the end of the day. This experience motivated us finish it as we were to release it as a beta product. We are really happy with the end result and hope that by sharing our work, we can inspire others and perhaps even find collaborators who can help us take it further in the future."
   },
   {
-    "question": "Do I need to pay to start using EasyAccess?",
-    "answer": "No payment required — we offer 50 free agent requests per month, including smart search, file transfers, and automation flows. Just connect your accounts and start using the core features immediately."
+    "question": "Is EasyAccess secure to use with my files and accounts?",
+    "answer": "Absolutely. EasyAccess uses SHA-256 encryption for local and cloud data, and stores access tokens safely in your browser’s local storage. Nothing is uploaded without your permission, and we never access files unless you authorize it."
   },
   {
     "question": "Can I use EasyAccess on multiple devices?",

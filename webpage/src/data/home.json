@@ -4,19 +4,19 @@
   "services_title": "What <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>EasyAccess</span> Does",
   "case_studies_title": "Built for <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>real workflows</span>",
   "about_title": "Meet <span style='background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent) / 0.7)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>Us</span>",
-  "about_content": "test",
+  "about_content": "<p>We are rising senior Computer Science students at <span style=\"background:linear-gradient(135deg,#CBB677,#E5D3A1); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;\">Purdue University</span>, developing EasyAccess to provide secure, unified, and efficient access to distributed files and cloud storage.</p>",
   "about_team": [
     {
       "name": "Hojin Sohn",
-      "role": "test",
-      "description": "test",
+      "role": "Lead Developer",
+      "description": "",
       "image": "/content-images/hojin.jpg",
       "linkedin": "https://www.linkedin.com/in/hojin-sohn-a41b52159/"
     },
     {
       "name": "Alejandro Griffith", 
-      "role": "test",
-      "description": "test",
+      "role": "Lead Developer",
+      "description": "",
       "image": "/content-images/alejandro.jpg",
       "linkedin": "https://www.linkedin.com/in/alesgsanudoo/"
     }
